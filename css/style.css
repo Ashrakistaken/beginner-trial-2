@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem 0rem 3rem;
+    box-shadow: 0px 0px 1px 0px rgba(95, 88, 88, 0.75);
+}
+
+
+.slides-logo {
+    width: 13%;
+    height: 13%;
+}
+
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+
+
+ul li a {
+    text-decoration: none;
+    color: #7F8487;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.5s;
+}
+
+ul li a:hover {
+    color: #153462;
+    cursor: pointer;
+
+}
+
+.blue-bttn {
+    background-color: rgba(0, 51, 124, 0.8);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.9rem;
+    transition: all 0.5s;
+}
+
+.blue-bttn:hover {
+    background-color: rgba(0, 51, 124, 1);
+    cursor: pointer;
+    border-radius: 0.8rem;
+}
+
+.green-bttn {
+    background-color: rgba(3, 201, 136, 0.8);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.9rem;
+    transition: all 0.5s;
+}
+
+.green-bttn:hover {
+    background-color: rgba(3, 201, 136, 1);
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+
+article {
+    width: 50%;
+    margin-top: 8rem;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    width: 50%;
+    font-weight: 900;
+}
+
+p {
+    width: 50%;
+    text-align: left;
+    margin-left: 2.8rem;
+}
+
+.blue-bttn {
+    margin: 0.5rem 0.5rem 0.5rem 3rem;
+}
+
+.website-icon {
+    width: 40%;
+    height: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 12rem;
+    right: 11rem;
+    z-index: 2;
+    border-radius: 1rem;
+}
+
+.red-ball {
+    width: 300px;
+    height: 300px;
+    background-color: #F57328;
+    border-radius: 50%;
+    position: absolute;
+    top: 8rem;
+    left: 35rem;
+    z-index: 1;
+}
+
+.lil-blue-ball {
+    width: 80px;
+    height: 60px;
+    background-color: rgba(28, 103, 88, 0.8);
+    border-radius: 25%;
+    position: absolute;
+    bottom: 6rem;
+    right: 10rem;
+    z-index: 3;
+}
